@@ -2,6 +2,7 @@ package com.abc.conslayout
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.CalendarView
 import android.widget.TextView
 import java.time.LocalDate
@@ -15,7 +16,6 @@ class conslay : AppCompatActivity() {
 
         val cal = findViewById<CalendarView>(R.id.cal)
         val txtage = findViewById<TextView>(R.id.txtage)
-        val txtbd = findViewById<TextView>(R.id.txtbd)
 
 
         cal.setOnDateChangeListener { view, year, month, dayOfMonth ->

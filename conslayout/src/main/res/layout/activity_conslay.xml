@@ -15,27 +15,29 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.491" app:layout_constraintVertical_bias="0.435"/>
+            app:layout_constraintHorizontal_bias="0.491" app:layout_constraintVertical_bias="0.498"
+            android:maxDate="12/31/2009" android:minDate="1/1/1959"/>
     <TextView
             android:text="enter your birthdate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="199dp"
+            android:layout_height="49dp"
             app:layout_constraintBottom_toTopOf="@+id/cal"
-            android:layout_marginBottom="24dp" app:layout_constraintStart_toStartOf="@+id/cal"
+            android:layout_marginBottom="28dp" app:layout_constraintStart_toStartOf="@+id/cal"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintHorizontal_bias="0.0" android:id="@+id/txtbd"
-            android:inputType="datetime"/>
+            app:layout_constraintHorizontal_bias="0.032" android:id="@+id/txtbd"
+            android:inputType="datetime" android:layout_marginStart="8dp" android:layout_marginLeft="8dp"
+            android:textSize="17sp" android:textStyle="bold|italic"/>
     <TextView
             android:text="your age is"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:id="@+id/txtage"
             app:layout_constraintEnd_toEndOf="@+id/txtbd"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/cal" tools:ignore="HardcodedText"
             app:layout_constraintVertical_bias="0.235" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="@+id/cal" android:layout_marginLeft="8dp"
-            app:layout_constraintHorizontal_bias="0.0"/>
+            app:layout_constraintStart_toStartOf="@+id/txtbd" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0" android:textSize="25sp"/>
 
 
 </android.support.constraint.ConstraintLayout>

@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/conslayout" />
+            <option value="$PROJECT_DIR$/recycler_view" />
+            <option value="$PROJECT_DIR$/watsupscr" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

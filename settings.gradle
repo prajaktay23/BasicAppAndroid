@@ -1,1 +1,1 @@
-include ':app', ':conslayout'
+include ':app', ':conslayout', ':watsupscr', ':recycler_view'
