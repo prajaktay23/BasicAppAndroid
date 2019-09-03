@@ -9,7 +9,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/atm" />
             <option value="$PROJECT_DIR$/conslayout" />
+            <option value="$PROJECT_DIR$/fragmentsprac" />
+            <option value="$PROJECT_DIR$/interactcom" />
+            <option value="$PROJECT_DIR$/prac_recycler" />
             <option value="$PROJECT_DIR$/recycler_view" />
             <option value="$PROJECT_DIR$/watsupscr" />
           </set>

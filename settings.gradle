@@ -1,1 +1,1 @@
-include ':app', ':conslayout', ':watsupscr', ':recycler_view'
+include ':app', ':conslayout', ':watsupscr', ':recycler_view', ':prac_recycler', ':interactcom', ':fragmentsprac', ':atm', ':atm', ':atm'
